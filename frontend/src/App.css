@@ -1,0 +1,36 @@
+/* Botanical Research Journal Design System Utilities */
+
+::selection {
+  background-color: #173827;
+  color: #fbf9f4;
+}
+
+/* Archival Specimen Cards Subtle Hover Lift */
+.specimen-card {
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.specimen-card:hover {
+  border-color: #173827;
+}
+
+/* Scientific Monospace Numbers */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Archival Specimen Plate Borders */
+.archival-plate {
+  box-shadow: 0 1px 3px rgba(35, 45, 38, 0.05);
+}
+
+/* Print styling for archival pathology reports */
+@media print {
+  nav, footer, button, .no-print {
+    display: none !important;
+  }
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+}
