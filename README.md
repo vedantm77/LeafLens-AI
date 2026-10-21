@@ -51,8 +51,8 @@ The application follows an editorial scientific research aesthetic featuring war
 | **03. Species Taxonomy** | `docs/screenshots/species-taxonomy.png` | Searchable 38-class herbarium index with family filters and detailed clinical modal views. |
 | **04. Observation Logbook** | `docs/screenshots/observation-logbook.png` | Client-side historical ledger of past diagnostic scans with inspection and JSON export capabilities. |
 
-```markdown
-<!-- Screenshot Embed Template -->
+### Application Screenshots
+
 ![Diagnostic Studio](docs/screenshots/diagnostic-studio.png)
 *Figure 1: Diagnostic Studio showing leaf intake, top-3 candidates, and agronomic guidance.*
 
@@ -64,7 +64,6 @@ The application follows an editorial scientific research aesthetic featuring war
 
 ![Observation Logbook](docs/screenshots/observation-logbook.png)
 *Figure 4: Client-side diagnostic scan history ledger.*
-```
 
 ---
 
